@@ -2,6 +2,7 @@
   "name": "identity-service",
   "version": "1.0.0",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
@@ -24,10 +25,9 @@
     "ioredis": "^5.4.2",
     "joi": "^17.13.3",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.9.2",
+    "mongoose": "^8.13.2",
     "rate-limit-redis": "^4.2.0",
     "rate-limiter-flexible": "^5.0.4",
     "winston": "^3.17.0"
   }
 }
-
