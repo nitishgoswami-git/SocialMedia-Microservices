@@ -15,6 +15,7 @@ const app = express();
 
 
 const redisClient = new Redis(process.env.REDIS_URL);
+console.log("Connecting to Redis at:", process.env.REDIS_URL); // TEMP for debug
 
 //middleware
 app.use(helmet());
