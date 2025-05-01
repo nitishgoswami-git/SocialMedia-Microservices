@@ -33,7 +33,7 @@ app.use((req, res, next) => {
   next();
 });
 
-//*** Homework - implement Ip based rate limiting for sensitive endpoints
+//*** TODO -- implement Ip based rate limiting for sensitive endpoints
 
 //routes -> pass redisclient to routes
 app.use(
