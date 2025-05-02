@@ -62,6 +62,10 @@ const getAllMedias = async (req, res) => {
                 message:"Cann't find any media for this user"
             })
         }
+        return res.status(200).json({
+          success: true,
+          results: result
+        })
   } catch (e) {
     logger.error("Error fetching medias", error);
     res.status(500).json({
